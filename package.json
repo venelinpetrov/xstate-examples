@@ -2,21 +2,21 @@
   "name": "xstate-examples",
   "version": "0.1.0",
   "private": true,
+  "main": "index.js",
   "dependencies": {
     "@xstate/react": "^0.7.1",
+    "next": "^9.0.8",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-scripts": "3.2.0",
     "xstate": "^4.6.7"
   },
   "scripts": {
+    "dev": "next",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   },
   "browserslist": {
     "production": [
