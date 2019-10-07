@@ -1,7 +1,15 @@
 import Link from 'next/link';
+import styled from 'styled-components';
 
-const Nav = props => (
-    <nav>
+const StyledNav = styled.nav`
+    a {
+        padding: 10px;
+        background: skyblue;
+    }
+`;
+
+const Nav = () => (
+    <StyledNav>
         <Link href="/">
             <a>Home</a>
         </Link>
@@ -11,7 +19,7 @@ const Nav = props => (
         <Link href="/video-player">
             <a>Video Player</a>
         </Link>
-    </nav>
+    </StyledNav>
 )
 
 export default Nav;
