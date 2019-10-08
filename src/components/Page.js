@@ -1,10 +1,52 @@
 import Nav from './Nav';
+import { createGlobalStyle } from 'styled-components';
 
+const GlobalStyle = createGlobalStyle`
+html {
+  font-size: 18px;
+}
+
+video {
+  max-width: 100%;
+  margin-bottom: -3px;
+}
+
+button {
+  background: #a8dba8;
+  padding: 0.25rem 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.elapsed {
+  width: 100%;
+  height: 5px;
+}
+.elapsed-bar {
+  transition: width 0.5 ease;
+  height: 5px;
+  background-color: #629460;
+}
+
+.timer {
+  display: inline-block;
+  margin-left: 5px;
+}
+`;
 const Page = props => (
+    <>
+    <GlobalStyle />
+
     <div>
         <Nav />
         {props.children}
     </div>
+    </>
 );
 
 export default Page;
