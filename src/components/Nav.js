@@ -19,6 +19,9 @@ const Nav = () => (
         <Link href="/video-player">
             <a>Video Player</a>
         </Link>
+        <Link href="/pager">
+            <a>Pager</a>
+        </Link>
     </StyledNav>
 )
 
