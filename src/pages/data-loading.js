@@ -52,7 +52,7 @@ const dataMachine = new Machine({
             type: 'final'
         },
         failure: {
-            type: 'file'
+            type: 'final'
         }
     }
 });
