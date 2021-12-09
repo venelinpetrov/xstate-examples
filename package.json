@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "@xstate/react": "^0.7.1",
-    "next": "^9.0.8",
+    "next": "^11.1.3",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-scripts": "3.2.0",
